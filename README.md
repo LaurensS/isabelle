@@ -6,4 +6,4 @@ A docker image with isabelle installed for CI builds.
 
 To run the container with the current working directory mounted:
 
-    docker run --rm -it -v ${PWD}:/data laurenss/isabelle build -d. SessionName
+    docker run --rm -it -v ${PWD}:/data laurenss/isabelle isabelle build -d. SessionName
